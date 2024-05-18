@@ -1,0 +1,88 @@
+.tasks{
+    width:100%;
+    height:100vh;
+    position:relative;
+}
+.tasks-inputs{
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.tasks-inputs-div{
+   border-radius: 12px;
+   box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+#textarea{
+    display:none;
+}
+.task-btn{
+    background-color:#C8FFE0;
+    border-radius: 27px;
+    color: #614BC3 !important;
+    font-weight:bolder;
+    font-size: 32px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:none;
+} 
+.task-btn:hover{
+    background-color:#614BC3;
+    color:#C8FFE0 !important;
+
+}
+.task-card{
+    border: 1px solid black;
+    border: none;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+.content{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card-icons{
+    font-size: x-large;
+    cursor: pointer;
+}
+/* .card-icons:hover{
+    color: rgb(153, 147, 147);
+} */
+.del{
+    color: red;
+}
+.card-icon-head{
+    cursor: pointer;
+}
+.card-icon-head:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    background-color:white;
+}
+
+.tasks-update{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    width: 75%;
+    margin-left: 13%;
+    height: 65vh;
+    position: fixed;
+    top:80px;
+    left:0px;
+    display: none;
+    background-color: #C8FFE0;
+    border:  6px solid  black;
+    border-radius:25px;
+}
+.update{
+    color: #614BC3;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.update1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn{
+    
+}
